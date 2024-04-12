@@ -1,8 +1,9 @@
 import Navbar from "../Navbar/Navbar";
 import PropTypes from "prop-types";
+import Headroom from "react-headroom";
 import { useState } from "react";
 
-function Darwer(props) {
+function Drawer(props) {
   const { children } = props;
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,10 +22,12 @@ function Darwer(props) {
           onChange={toggleDrawer}
         />
         <div className="drawer-content flex flex-col">
-          <Navbar />
-          <main>{children}</main>
+          <Headroom>
+            <Navbar />
+          </Headroom>
+          <main className="xl:mt-[-5%]">{children}</main>
         </div>
-        <div className="drawer-side">
+        <div className="drawer-side z-50">
           <label
             htmlFor="my-drawer-1"
             aria-label="close sidebar"
@@ -53,6 +56,6 @@ function Darwer(props) {
   );
 }
 
-Darwer.propTypes = { children: PropTypes.node };
+Drawer.propTypes = { children: PropTypes.node };
 
-export default Darwer;
+export default Drawer;
