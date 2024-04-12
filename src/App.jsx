@@ -6,10 +6,10 @@ function App() {
     <>
       <Darwer>
         <div
-          className="h-[1161px] bg-auto  bg-right-top bg-no-repeat"
+          className="h-[70svh] sm:h-[90svh] xl:h-[155lvh] bg-contain bg-right-top bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
-        >
-        </div>
+        ></div>
+        <div className="bg-blue-yonder-700 h-screen"></div>
       </Darwer>
     </>
   );
