@@ -50,6 +50,12 @@ export default {
           // eslint-disable-next-line no-undef
           ...require("daisyui/src/theming/themes")["light"],
           primary: "#37447E",
+          secondary: "#111B47",
+          neutral: "#6F7CB2",
+          ".btn:hover": {
+            "background-color": "#929ECC",
+            "border-color":"#929ECC"
+          },
         },
       },
     ],

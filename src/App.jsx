@@ -1,7 +1,16 @@
+import Darwer from "./components/Navbar/Drawer/Darwer";
+import heroImage from "./assets/img/herosection/designer_1.svg";
+
 function App() {
   return (
     <>
-      <h2 className="text-9xl text-primary font-black text-center">Landing</h2>
+      <Darwer>
+        <div
+          className="h-[1161px] bg-auto  bg-right-top bg-no-repeat"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+        </div>
+      </Darwer>
     </>
   );
 }
