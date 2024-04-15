@@ -18,8 +18,8 @@ function Navbar() {
           color ? "bg-blue-yonder-200 bg-opacity-50 backdrop-blur-sm" : null
         }`}
       >
-        <nav className={`navbar max-w-screen-xl mx-auto`}>
-          <div className="navbar-start max-[390px]:w-2/5">
+        <nav className="navbar max-w-screen-xl mx-auto max-xl:px-3">
+          <div className="navbar-start max-[390px]:w-5/12">
             {/* Button Drawer Toggle */}
             <div className="lg:hidden">
               <label
@@ -30,7 +30,7 @@ function Navbar() {
                 <i className="fa-solid fa-bars fa-xl"></i>
               </label>
             </div>
-            <ul className="menu menu-horizontal px-1 text-blue-yonder-500 hidden lg:flex">
+            <ul className="menu menu-horizontal gap-6 px-1 text-blue-yonder-500 hidden lg:flex">
               <li
                 onClick={() => {
                   window.scrollTo(0, 0);

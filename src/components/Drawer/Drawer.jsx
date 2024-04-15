@@ -22,10 +22,10 @@ function Drawer(props) {
           onChange={toggleDrawer}
         />
         <div className="drawer-content flex flex-col">
-          <Headroom>
+          <Headroom className="absolute inset-x-0">
             <Navbar />
           </Headroom>
-          <main className="xl:mt-[-5%]">{children}</main>
+          <main>{children}</main>
         </div>
         <div className="drawer-side z-50">
           <label

@@ -54,7 +54,11 @@ export default {
           neutral: "#6F7CB2",
           ".btn:hover": {
             "background-color": "#929ECC",
-            "border-color":"#929ECC"
+            "border-color": "#929ECC",
+          },
+          ".btn-sm": {
+            "height": "2.2rem",
+            "min-height":"2.2rem"
           },
         },
       },
