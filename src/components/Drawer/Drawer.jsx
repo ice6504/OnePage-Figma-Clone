@@ -22,11 +22,14 @@ function Drawer(props) {
           onChange={toggleDrawer}
         />
         <div className="drawer-content flex flex-col">
+          {/* Navbar */}
           <Headroom className="absolute inset-x-0">
             <Navbar />
           </Headroom>
-          <main className="space-y-2">{children}</main>
+          {/* Content */}
+          <main>{children}</main>
         </div>
+        {/* Drawer Sidebar */}
         <div className="drawer-side z-50 lg:hidden">
           <label
             htmlFor="my-drawer-1"
