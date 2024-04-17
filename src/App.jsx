@@ -7,7 +7,10 @@ function App() {
     <>
       <Drawer>
         <Header />
-        <Intro />
+        <div className="max-w-screen-xl mx-auto max-xl:px-5">
+          <Intro />
+          <div className="h-screen"></div>
+        </div>
       </Drawer>
     </>
   );
