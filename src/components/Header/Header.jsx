@@ -4,13 +4,13 @@ function Header() {
   return (
     <header>
       <div
-        className="max-[390px]:h-[68svh] h-[55svh] sm:h-[80svh] xl:h-[120svh] 2xl:h-[155lvh] bg-contain bg-right-top bg-no-repeat"
+        className="max-[390px]:h-[68svh] h-[55svh] sm:h-[80svh] xl:h-[120svh] 2xl:h-[155lvh] bg-cover sm:bg-contain bg-left-bottom sm:bg-right-top bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="h-full max-h-screen">
-          <div className="max-w-screen-xl mx-auto h-full max-[390px]:pb-4 pb-10 sm:pb-20 lg:pb-14 xl:pb-16 2xl:pb-2 max-xl:px-5 grid content-end">
+          <div className="max-w-screen-xl mx-auto h-full max-[390px]:pb-4 pb-10 sm:pb-20 lg:pb-14 xl:pb-16 2xl:pb-2 max-xl:px-5 grid xl:content-end place-content-center">
             <div className="card max-[390px]:w-2/3 w-1/2 gap-2 sm:gap-6">
-              <h1 className="font-medium max-[390px]:text-md text-lg sm:text-3xl lg:text-6xl text-blue-yonder-900">
+              <h1 className="font-medium max-[400px]:text-sm text-lg sm:text-3xl lg:text-[2.5rem] xl:text-6xl text-blue-yonder-900">
                 Introduce Your Product <br /> Quickly & Effectively
               </h1>
               <p className="w-3/4 max-sm:text-xs text-blue-yonder-500 max-[390px]:line-clamp-4 max-sm:line-clamp-6 max-xl:line-clamp-[7] tracking-wide leading-6">

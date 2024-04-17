@@ -25,9 +25,9 @@ function Drawer(props) {
           <Headroom className="absolute inset-x-0">
             <Navbar />
           </Headroom>
-          <main>{children}</main>
+          <main className="space-y-2">{children}</main>
         </div>
-        <div className="drawer-side z-50">
+        <div className="drawer-side z-50 lg:hidden">
           <label
             htmlFor="my-drawer-1"
             aria-label="close sidebar"
