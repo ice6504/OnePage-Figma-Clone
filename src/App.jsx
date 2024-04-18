@@ -3,7 +3,7 @@ import Drawer from "./components/Drawer/Drawer";
 import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Info from "./components/Info/Info";
-import Price from "./components/Price/Price";
+import Price from "./components/Price/PriceSection";
 import Footer from "./components/Footer/Footer";
 
 // Img

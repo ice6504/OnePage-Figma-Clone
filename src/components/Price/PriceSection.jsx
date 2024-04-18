@@ -1,6 +1,6 @@
 import rectangle from "../../assets/img/section6/rectangle.svg";
 
-function Price() {
+function PriceSection() {
   return (
     <>
       <div
@@ -36,4 +36,4 @@ function Price() {
   );
 }
 
-export default Price;
+export default PriceSection;
