@@ -1,11 +1,11 @@
-import rectangle from "../../assets/img/section6/rectangle.svg";
+import rec from "../../../src/assets/img/section6/rectangle.svg"
 
 function PriceSection() {
   return (
     <>
       <div
         className="h-[80svh] sm:h-screen bg-no-repeat bg-cover bg-center grid place-items-center"
-        style={{ backgroundImage: `url(${rectangle})` }}
+        style={{ backgroundImage: `url(${rec})` }}
       >
         <div className="flex flex-col items-center w-full sm:w-2/3 lg:w-1/2">
           <div className="text-center space-y-4">
