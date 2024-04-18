@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Intro from "./components/Intro/Intro";
 import Info from "./components/Info/Info";
 import Price from "./components/Price/Price";
+import Footer from "./components/Footer/Footer";
 
 // Img
 import happy from "./assets/img/section3/undraw_happy_news_hxmt.svg";
@@ -22,7 +23,7 @@ function App() {
           <Info img={mention} hasBtn={true} btnTitle="Purchase Now" />
         </div>
         <Price />
-        <div className="bg-blue-yonder-100 h-96 max-2xl:mt-[-2%]"></div>
+        <Footer />
       </Drawer>
     </>
   );

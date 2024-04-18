@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 
 function Info(props) {
   const { img, hasBtn, btnTitle } = props;  
-  console.log(hasBtn);
   return (
     <>
       <div className="min-h-[60vh] xl:h-screen flex max-lg:flex-col justify-center items-center gap-16">

@@ -31,18 +31,26 @@ function Navbar() {
               </label>
             </div>
             <ul className="menu menu-horizontal gap-6 px-1 text-blue-yonder-500 hidden lg:flex">
-              <li
-                onClick={() => {
-                  window.scrollTo(0, 0);
-                }}
-              >
-                <a>Home</a>
+              <li>
+                <a
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                  }}
+                >
+                  Home
+                </a>
               </li>
               <li>
                 <a>About</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a
+                  onClick={() => {
+                    window.scrollTo(0, document.body.scrollHeight);
+                  }}
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
