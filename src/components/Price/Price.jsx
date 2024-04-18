@@ -1,4 +1,4 @@
-import rectangle from "../../assets/img/section6/Rectangle.svg";
+import rectangle from "../../assets/img/section6/rectangle.svg";
 
 function Price() {
   return (
