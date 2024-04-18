@@ -19,10 +19,14 @@ function Price() {
             </p>
           </div>
           <div className="my-10 space-y-2 text-center">
-            <p className="text-blue-yonder-700 text-5xl sm:text-6xl font-medium">$40</p>
+            <p className="text-blue-yonder-700 text-5xl sm:text-6xl font-medium">
+              $40
+            </p>
             <p className=" text-blue-yonder-600 ">UI Design Kit</p>
           </div>
-          <p className="text-gray-nevada-600 text-center my-2">See, One price. Simple.</p>
+          <p className="text-gray-nevada-600 text-center my-2">
+            See, One price. Simple.
+          </p>
           <button className="btn btn-secondary btn-sm rounded-sm w-36 sm:w-52 ">
             Purchase Now
           </button>
